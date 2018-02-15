@@ -1,0 +1,2153 @@
+//VoT_37_EN γ
+//Project_Alpha
+//ComX_Software_by_Li_Zerong
+
+#include <stdio.h>
+#include <ctype.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void)
+{
+    //Variable
+    char Start;
+    int ID;
+    int MAX = 46;
+    const unsigned int Dispaly = 1;
+    time_t Begin;
+    time_t Seed = 37;
+    int Tries = 1;
+    int Mark = 0;
+    bool BUG = 1;
+
+    //Forward
+    printf("Hello,dear Project Alpha Insider!\n\a");
+    printf("VoT 37 is able to help you check and memorize words in each unit of "
+    "NEW SENIOR ENGLISH FOR CHINAE STUDENT'S BOOK 1.\n");
+    printf("VoT 37 will keep on displaying word till you make mistake,this is for \'PRECTICE"
+    "MAKES PERFECT\',if you get tired of it,you can just click CLOSE.\n");
+    printf("Press Enter to start!");
+    scanf("%c",&Start);
+    
+    //ID
+    srand(time(&Seed));
+    Core:
+    ID = rand() % MAX;
+    if(Tries == 1)
+    {
+        printf("You will see one word stay for just one second and then disapper,if you get ready press Enter to go!\n");
+        scanf("%c",&Start);
+    }
+    else
+    {
+        if(BUG)
+        {
+            printf("Go on,practice makes perfect!\n");
+            scanf("%c",&Start);
+        }
+        else
+        {
+            printf("Now start again,do not worry,your mark is saved,press Enter to go.");
+            scanf("%c",&Start);
+        }
+    }
+
+    //Core
+    switch(ID)
+    {
+        case 1:
+        {
+            //Upset
+            int Qua1 = 5;
+            char A1 = 'u';
+            char A2 = 'p';
+            char A3 = 's';
+            char A4 = 'e';
+            char A5 = 't';
+            char a1,a2,a3,a4,a5;
+            Begin = clock();
+            printf("\nupset\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua1;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c",&a1,&a2,&a3,&a4,&a5);
+            ++Tries;
+            if(tolower(a1)==A1&&tolower(a2)==A2&&tolower(a3)==A3&&tolower(a4)==A4&&tolower(a5)==A5)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 2:
+        {
+            //Ignore
+            int Qua2 = 6;
+            char A6 = 'i';
+            char A7 = 'g';
+            char A8 = 'n';
+            char A9 = 'o';
+            char A10 = 'r';
+            char A11 = 'e';
+            char a6,a7,a8,a9,a10,a11;
+            Begin = clock();
+            printf("\nignore\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua2;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&a6,&a7,&a8,&a9,&a10,&a11);
+            ++Tries;
+            if(tolower(a6)==A6&&tolower(a7)==A7&&tolower(a8)==A8&&tolower(a9)==A9&&tolower(a10)==A10&&tolower(a11)==A11)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 3:
+        {
+            //Calm
+            int Qua3 = 4;
+            char A12 = 'c';
+            char A13 = 'a';
+            char A14 = 'l';
+            char A15 = 'm';
+            char a12,a13,a14,a15;
+            Begin = clock();
+            printf("\ncalm\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua3;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.\n\a");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c",&a12,&a13,&a14,&a15);
+            ++Tries;
+            if(tolower(a12)==A12&&tolower(a13)==A13&&tolower(a14)==A14&&tolower(a15)==A15)
+            {
+                printf("Corecct!Well done.\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 4:
+        {
+            //Concern
+            int Qua4 = 7;
+            char A16 = 'c';
+            char A17 = 'o';
+            char A18 = 'n';
+            char A19 = 'c';
+            char A20 = 'e';
+            char A21 = 'r';
+            char A22 = 'n';
+            char a16,a17,a18,a19,a20,a21,a22;
+            Begin = clock();
+            printf("\nconcern\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua4;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.\n\a");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&a16,&a17,&a18,&a19,&a20,&a21,&a22);
+            ++Tries;
+            if(tolower(a16)==A16&&tolower(a17)==A17&&tolower(a18)==A18&&tolower(a19)==A19&&tolower(a20)==A20&&tolower(a21)==A21&&tolower(a22)==A22)
+            {
+                printf("Corecct!Well done.\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 5:
+        {
+            //Outdoors
+            int Qua5 = 8;
+            char A23 = 'o';
+            char A24 = 'u';
+            char A25 = 't';
+            char A26 = 'd';
+            char A27 = 'o';
+            char A28 = 'o';
+            char A29 = 'r';
+            char A30 = 's';
+            char a23,a24,a25,a26,a27,a28,a29,a30;
+            Begin = clock();
+            printf("\noutdoors\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua5;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.\n\a");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&a23,&a24,&a25,&a26,&a27,&a28,&a29,&a30);
+            ++Tries;
+            if(tolower(a23)==A23&&tolower(a24)==A24&&tolower(a25)==A25&&tolower(a26)==A26&&tolower(a27)==A27&&tolower(a28)==A28&&tolower(a29)==A29&&tolower(a30)==A30)
+            {
+                printf("Corecct!Well done.\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 6:
+        {
+            //Settle
+            int Qua6 = 6;
+            char A31 = 's';
+            char A32 = 'e';
+            char A33 = 't';
+            char A34 = 't';
+            char A35 = 'l';
+            char A36 = 'e';
+            char a31,a32,a33,a34,a35,a36;
+            Begin = clock();
+            printf("\nsettle\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua6;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.\n\a");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&a31,&a32,&a33,&a34,&a35,&a36);
+            ++Tries;
+            if(tolower(a31)==A31&&tolower(a32)==A32&&tolower(a33)==A33&&tolower(a34)==A34&&tolower(a35)==A35&&tolower(a36)==A36)
+            {
+                printf("Corecct!Well done.\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 7:
+        {
+            //Suffer
+            int Qua7 = 6;
+            char A37 = 's';
+            char B1 = 'u';
+            char B2 = 'f';
+            char B3 = 'f';
+            char B4 = 'e';
+            char B5 = 'r';
+            char a37,b1,b2,b3,b4,b5;
+            Begin = clock();
+            printf("\nsuffer\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua7;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&a37,&b1,&b2,&b3,&b4,&b5);
+            ++Tries;
+            if(tolower(a37)==A37&&tolower(b1)==B1&&tolower(b2)==B2&&tolower(b3)==B3&&tolower(b4)==B4&&tolower(b5)==B5)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 8:
+        {
+            //Recover
+            int Qua8 = 7;
+            char B6 = 'r';
+            char B7 = 'e';
+            char B8 = 'c';
+            char B9 = 'o';
+            char B10 = 'v';
+            char B11 = 'e';
+            char B12 = 'r';
+            char b6,b7,b8,b9,b10,b11,b12;
+            Begin = clock();
+            printf("\nrecover\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua8;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&b6,&b7,&b8,&b9,&b10,&b11,&b12);
+            ++Tries;
+            if(tolower(b6)==B6&&tolower(b7)==B7&&tolower(b8)==B8&&tolower(b9)==B9&&tolower(b10)==B10&&tolower(b11)==B11&&tolower(b12)==B12)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 9:
+        {
+            //Pack
+            int Qua9 = 4;
+            char B13 = 'p';
+            char B14 = 'a';
+            char B15 = 'c';
+            char B16 = 'k';
+            char b13,b14,b15,b16;
+            Begin = clock();
+            printf("\npack\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua9;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c",&b13,&b14,&b15,&b16);
+            ++Tries;
+            if(tolower(b13)==B13&&tolower(b14)==B14&&tolower(b15)==B15&&tolower(b16)==B16)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 10:
+        {
+            //Disagree
+            int Qua10 = 8;
+            char B17 = 'd';
+            char B18 = 'i';
+            char B19 = 's';
+            char B20 = 'a';
+            char B21 = 'g';
+            char B22 = 'r';
+            char B23 = 'e';
+            char B24 = 'e';
+            char b17,b18,b19,b20,b21,b22,b23,b24;
+            Begin = clock();
+            printf("\ndisagree\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua10;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&b17,&b18,&b19,&b20,&b21,&b22,&b23,&b24);
+            ++Tries;
+            if(tolower(b17)==B17&&tolower(b18)==B18&&tolower(b19)==B19&&tolower(b20)==B20&&tolower(b21)==B21&&tolower(b22)==B22&&tolower(b23)==B23&&tolower(b24)==B24)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 11:
+        {
+            //Actually
+            int Qua11 = 8;
+            char B25 = 'a';
+            char B26 = 'c';
+            char B27 = 't';
+            char B28 = 'u';
+            char B29 = 'a';
+            char B30 = 'l';
+            char B31 = 'l';
+            char B32 = 'y';
+            char b25,b26,b27,b28,b29,b30,b31,b32;
+            Begin = clock();
+            printf("\nactually\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua11;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&b25,&b26,&b27,&b28,&b29,&b30,&b31,&b32);
+            ++Tries;
+            if(tolower(b25)==B25&&tolower(b26)==B26&&tolower(b27)==B27&&tolower(b28)==B28&&tolower(b29)==B29&&tolower(b30)==B30&&tolower(b31)==B31&&tolower(b32)==B32)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 12:
+        {
+            //Base
+            int Qua12 = 7;
+            char B32 = 'b';
+            char B33 = 'a';
+            char B34 = 's';
+            char B35 = 'e';
+            char b32,b33,b34,b35;
+            Begin = clock();
+            printf("\nbase\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua12;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c",&b32,&b33,&b34,&b35);
+            ++Tries;
+            if(tolower(b32)==B32&&tolower(b33)==B33&&tolower(b34)==B34&&tolower(b35)==B35)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 13:
+        {
+            //Command
+            int Qua13 = 7;
+            char B36 = 'c';
+            char B37 = 'o';
+            char C1 = 'm';
+            char C2 = 'm';
+            char C3 = 'a';
+            char C4 = 'n';
+            char C5 = 'd';
+            char b36,b37,c1,c2,c3,c4,c5;
+            Begin = clock();
+            printf("\ncommand\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua13;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&b36,&b37,&c1,&c2,&c3,&c4,&c5);
+            ++Tries;
+            if(tolower(b36)==B36&&tolower(b37)==B37&&tolower(c1)==C1&&tolower(c2)==C2&&tolower(c3)==C3&&tolower(c4)==C4&&tolower(c5)==C5)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 14:
+        {
+            //Request
+            int Qua14 = 7;
+            char C6 = 'r';
+            char C7 = 'e';
+            char C8 = 'q';
+            char C9 = 'u';
+            char C10 = 'e';
+            char C11 = 's';
+            char C12 = 't';
+            char c6,c7,c8,c9,c10,c11,c12;
+            Begin = clock();
+            printf("\nrequest\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua14;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&c6,&c7,&c8,&c9,&c10,&c11,&c12);
+            ++Tries;
+            if(tolower(c6)==C6&&tolower(c7)==C7&&tolower(c8)==C8&&tolower(c9)==C9&&tolower(c10)==C10&&tolower(c11)==C11&&tolower(c12)==C12)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 15:
+        {
+            //Recognize
+            int Qua15 = 9;
+            char C13 = 'r';
+            char C14 = 'e';
+            char C15 = 'c';
+            char C16 = 'o';
+            char C17 = 'g';
+            char C18 = 'n';
+            char C19 = 'i';
+            char C20 = 'z';
+            char C21 = 'e';
+            char c13,c14,c15,c16,c17,c18,c19,c20,c21;
+            Begin = clock();
+            printf("\nrecognize\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua15;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c %c",&c13,&c14,&c15,&c16,&c17,&c18,&c19,&c20,&c21);
+            ++Tries;
+            if(tolower(c13)==C13&&tolower(c14)==C14&&tolower(c15)==C15&&tolower(c16)==C16&&tolower(c17)==C17&&tolower(c18)==C18&&tolower(c19)==C19&&tolower(c20)==C20&&tolower(c21)==C21)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 16:
+        {
+            //Straight
+            int Qua16 = 8;
+            char C22 = 's';
+            char C23 = 't';
+            char C24 = 'r';
+            char C25 = 'a';
+            char C26 = 'i';
+            char C27 = 'g';
+            char C28 = 'h';
+            char C29 = 't';
+            char c22,c23,c24,c25,c26,c27,c28,c29;
+            Begin = clock();
+            printf("\nstraight\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua16;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&c22,&c23,&c24,&c25,&c26,&c27,&c28,&c29);
+            ++Tries;
+            if(tolower(c22)==C22&&tolower(c23)==C23&&tolower(c24)==C24&&tolower(c25)==C25&&tolower(c26)==C26&&tolower(c27)==C27&&tolower(c28)==C28&&tolower(c29)==C29)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 17:
+        {
+            //Transport
+            int Qua17 = 9;
+            char C30 = 't';
+            char C31 = 'r';
+            char C32 = 'a';
+            char C33 = 'n';
+            char C34 = 's';
+            char C35 = 'p';
+            char C36 = 'o';
+            char C37 = 'r';
+            char D1 = 't';
+            char c30,c31,c32,c33,c34,c35,c36,c37,d1;
+            Begin = clock();
+            printf("\ntransport\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua17;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c %c",&c30,&c31,&c32,&c33,&c34,&c35,&c36,&c37,&d1);
+            ++Tries;
+            if(tolower(c30)==C30&&tolower(c31)==C31&&tolower(c32)==C32&&tolower(c33)==C33&&tolower(c34)==C34&&tolower(c35)==C35&&tolower(c36)==C36&&tolower(c37)==C37&&tolower(d1)==D1)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 18:
+        {
+            //Prefer
+            int Qua18 = 6;
+            char D2 = 'p';
+            char D3 = 'r';
+            char D4 = 'e';
+            char D5 = 'f';
+            char D6 = 'e';
+            char D7 = 'r';
+            char d2,d3,d4,d5,d6,d7;
+            Begin = clock();
+            printf("\nprefer\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua18;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&d2,&d3,&d4,&d5,&d6,&d7);
+            ++Tries;
+            if(tolower(d2)==D2&&tolower(d3)==D3&&tolower(d4)==D4&&tolower(d5)==D5&&tolower(d6)==D6&&tolower(d7)==D7)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 19:
+        {
+            //Persuade
+            int Qua19 = 8;
+            char D8 = 'p';
+            char D9 = 'e';
+            char D10 = 'r';
+            char D11 = 's';
+            char D12 = 'u';
+            char D13 = 'a';
+            char D14 = 'd';
+            char D15 = 'e';
+            char d8,d9,d10,d11,d12,d13,d14,d15;
+            Begin = clock();
+            printf("\npersude\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua19;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&d8,&d9,&d10,&d11,&d12,&d13,&d14,&d15);
+            ++Tries;
+            if(tolower(d8)==D8&&tolower(d9)==D9&&tolower(d10)==D10&&tolower(d11)==D11&&tolower(d12)==D12&&tolower(d13)==D13&&tolower(d14)==D14&&tolower(d15)==D15)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 20:
+        {
+            //Graduate
+            int Qua20 = 8;
+            char D16 = 'g';
+            char D17 = 'r';
+            char D18 = 'a';
+            char D19 = 'd';
+            char D20 = 'u';
+            char D21 = 'a';
+            char D22 = 't';
+            char D23 = 'e';
+            char d16,d17,d18,d19,d20,d21,d22,d23;
+            Begin = clock();
+            printf("\ngraduate\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua20;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&d16,&d17,&d18,&d19,&d20,&d21,&d22,&d23);
+            ++Tries;
+            if(tolower(d16)==D16&&tolower(d17)==D17&&tolower(d18)==D18&&tolower(d19)==D19&&tolower(d20)==D20&&tolower(d21)==D21&&tolower(d22)==D22&&tolower(d23)==D23)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 21:
+        {
+            //Finally
+            int Qua21 = 7;
+            char D24 = 'f';
+            char D25 = 'i';
+            char D26 = 'n';
+            char D27 = 'a';
+            char D28 = 'l';
+            char D29 = 'l';
+            char D30 = 'y';
+            char d24,d25,d26,d27,d28,d29,d30;
+            Begin = clock();
+            printf("\nfinally\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua21;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&d24,&d25,&d26,&d27,&d28,&d29,&d30);
+            ++Tries;
+            if(tolower(d24)==D24&&tolower(d25)==D25&&tolower(d26)==D26&&tolower(d27)==D27&&tolower(d28)==D28&&tolower(d29)==D29&&tolower(d30)==D30)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 22:
+        {
+            //Schedule
+            int Qua22 = 8;
+            char D31 = 's';
+            char D32 = 'c';
+            char D33 = 'h';
+            char D34 = 'e';
+            char D35 = 'd';
+            char D36 = 'u';
+            char D37 = 'l';
+            char E1 = 'e';
+            char d31,d32,d33,d34,d35,d36,d37,e1;
+            Begin = clock();
+            printf("\nschedule\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua22;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&d31,&d32,&d33,&d34,&d35,&d36,&d37,&e1);
+            ++Tries;
+            if(tolower(d31)==D31&&tolower(d32)==D32&&tolower(d33)==D33&&tolower(d34)==D34&&tolower(d35)==D35&&tolower(d36)==D36&&tolower(d37)==D37&&tolower(e1)==E1)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 23:
+        {
+            //Organize
+            int Qua23 = 8;
+            char E2 = 'o';
+            char E3 = 'r';
+            char E4 = 'g';
+            char E5 = 'a';
+            char E6 = 'n';
+            char E7 = 'i';
+            char E8 = 'z';
+            char E9 = 'e';
+            char e2,e3,e4,e5,e6,e7,e8,e9;
+            Begin = clock();
+            printf("\norganize\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua23;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&e2,&e3,&e4,&e5,&e6,&e7,&e8,&e9);
+            ++Tries;
+            if(tolower(e2)==E2&&tolower(e3)==E3&&tolower(e4)==E4&&tolower(e5)==E5&&tolower(e6)==E6&&tolower(e7)==E7&&tolower(e8)==E8&&tolower(e9)==E9)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 24:
+        {
+            //Journey
+            int Qua24 = 7;
+            char E10 = 'j';
+            char E11 = 'o';
+            char E12 = 'u';
+            char E13 = 'r';
+            char E14 = 'n';
+            char E15 = 'e';
+            char E16 = 'y';
+            char e10,e11,e12,e13,e14,e15,e16;
+            Begin = clock();
+            printf("\njourney\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua24;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&e10,&e11,&e12,&e13,&e14,&e15,&e16);
+            ++Tries;
+            if(tolower(e10)==E10&&tolower(e11)==E11&&tolower(e12)==E12&&tolower(e13)==E13&&tolower(e14)==E14&&tolower(e15)==E15&&tolower(e16)==E16)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 25:
+        {
+            //Attitude
+            int Qua25 = 8;
+            char E17 = 'a';
+            char E18 = 't';
+            char E19 = 't';
+            char E20 = 'i';
+            char E21 = 't';
+            char E22 = 'u';
+            char E23 = 'd';
+            char E24 = 'e';
+            char e17,e18,e19,e20,e21,e22,e23,e24;
+            Begin = clock();
+            printf("\nattitude\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua25;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&e17,&e18,&e19,&e20,&e21,&e22,&e23,&e24);
+            ++Tries;
+            if(tolower(e17)==E17&&tolower(e18)==E18&&tolower(e19)==E19&&tolower(e20)==E20&&tolower(e21)==E21&&tolower(e22)==E22&&tolower(e23)==E23&&tolower(e24)==E24)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 26:
+        {
+            //Reliable
+            int Qua26 = 8;
+            char E17 = 'r';
+            char E18 = 'e';
+            char E19 = 'l';
+            char E20 = 'i';
+            char E21 = 'a';
+            char E22 = 'b';
+            char E23 = 'l';
+            char E24 = 'e';
+            char e17,e18,e19,e20,e21,e22,e23,e24;
+            Begin = clock();
+            printf("\nreliable\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua26;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c %c",&e17,&e18,&e19,&e20,&e21,&e22,&e23,&e24);
+            ++Tries;
+            if(tolower(e17)==E17&&tolower(e18)==E18&&tolower(e19)==E19&&tolower(e20)==E20&&tolower(e21)==E21&&tolower(e22)==E22&&tolower(e23)==E23&&tolower(e24)==E24)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 27:
+        {
+            //Burst
+            int Qua27 = 5;
+            char E25 = 'b';
+            char E26 = 'u';
+            char E27 = 'r';
+            char E28 = 's';
+            char E29 = 't';
+            char e25,e26,e27,e28,e29;
+            Begin = clock();
+            printf("\nburst\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua27;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c",&e25,&e26,&e27,&e28,&e29);
+            ++Tries;
+            if(tolower(e25)==E25&&tolower(e26)==E26&&tolower(e27)==E27&&tolower(e28)==E28&&tolower(e29)==E29)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 28:
+        {
+            //Ruin
+            int Qua28 = 4;
+            char E30 = 'r';
+            char E31 = 'u';
+            char E32 = 'i';
+            char E33 = 'n';
+            char e30,e31,e32,e33;
+            Begin = clock();
+            printf("\nruin\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua28;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c",&e30,&e31,&e32,&e33);
+            ++Tries;
+            if(tolower(e30)==E30&&tolower(e31)==E31&&tolower(e32)==E32&&tolower(e33)==E33)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 29:
+        {
+            //Injure
+            int Qua29 = 6;
+            char E34 = 'i';
+            char E35 = 'n';
+            char E36 = 'j';
+            char E37 = 'u';
+            char F1 = 'r';
+            char F2 = 'e';
+            char e34,e35,e36,e37,f1,f2;
+            Begin = clock();
+            printf("\ninjure\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua29;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&e34,&e35,&e36,&e37,&f1,&f2);
+            ++Tries;
+            if(tolower(e34)==E34&&tolower(e35)==E35&&tolower(e36)==E36&&tolower(e37)==E37&&tolower(f1)==F1&&tolower(f2)==F2)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 30:
+        {
+            //Ruin
+            int Qua30 = 4;
+            char E30 = 'r';
+            char E31 = 'u';
+            char E32 = 'i';
+            char E33 = 'n';
+            char e30,e31,e32,e33;
+            Begin = clock();
+            printf("\nruin\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua30;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c",&e30,&e31,&e32,&e33);
+            ++Tries;
+            if(tolower(e30)==E30&&tolower(e31)==E31&&tolower(e32)==E32&&tolower(e33)==E33)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 31:
+        {
+            //Destroy
+            int Qua31 = 7;
+            char F3 = 'd';
+            char F4 = 'e';
+            char F5 = 's';
+            char F6 = 't';
+            char F7 = 'r';
+            char F8 = 'o';
+            char F9 = 'y';
+            char f3,f4,f5,f6,f7,f8,f9;
+            Begin = clock();
+            printf("\ninjure\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua31;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&f3,&f4,&f5,&f6,&f7,&f8,&f9);
+            ++Tries;
+            if(tolower(f3)==F3&&tolower(f4)==F4&&tolower(f5)==F5&&tolower(f6)==F6&&tolower(f7)==F7&&tolower(f8)==F8&&tolower(f9)==F9)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 32:
+        {
+            //Shock
+            int Qua32 = 5;
+            char F10 = 's';
+            char F11 = 'h';
+            char F12 = 'o';
+            char F13 = 'c';
+            char F14 = 'k';
+            char f10,f11,f12,f13,f14;
+            Begin = clock();
+            printf("\nshock\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua32;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c",&f10,&f11,&f12,&f13,&f14);
+            ++Tries;
+            if(tolower(f10)==F10&&tolower(f11)==F11&&tolower(f12)==F12&&tolower(f13)==F13&&tolower(f14)==F14)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 33:
+        {
+            //Rescue
+            int Qua33 = 6;
+            char F15 = 'r';
+            char F16 = 'e';
+            char F17 = 's';
+            char F18 = 'c';
+            char F19 = 'u';
+            char F20 = 'e';
+            char f15,f16,f17,f18,f19,f20;
+            Begin = clock();
+            printf("\nrescue\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua33;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&f15,&f16,&f17,&f18,&f19,&f20);
+            ++Tries;
+            if(tolower(f15)==F15&&tolower(f16)==F16&&tolower(f17)==F17&&tolower(f18)==F18&&tolower(f19)==F19&&tolower(f20)==F20)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 34:
+        {
+            //Trap
+            int Qua34 = 4;
+            char F21 = 't';
+            char F22 = 'r';
+            char F23 = 'a';
+            char F24 = 'p';
+            char f21,f22,f23,f24;
+            Begin = clock();
+            printf("\ntrap\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua34;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c",&f21,&f22,&f23,&f24);
+            ++Tries;
+            if(tolower(f21)==F21&&tolower(f22)==F22&&tolower(f23)==F23&&tolower(f24)==F24)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 35:
+        {
+            //Bury
+            int Qua35 = 4;
+            char F25 = 'b';
+            char F26 = 'u';
+            char F27 = 'r';
+            char F28 = 'y';
+            char f25,f26,f27,f28;
+            Begin = clock();
+            printf("\nbury\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua35;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c",&f25,&f26,&f27,&f28);
+            ++Tries;
+            if(tolower(f25)==F25&&tolower(f26)==F26&&tolower(f27)==F27&&tolower(f28)==F28)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 36:
+        {
+            //Quality
+            int Qua36 = 7;
+            char F29 = 'q';
+            char F30 = 'u';
+            char F31 = 'a';
+            char F32 = 'l';
+            char F33 = 'i';
+            char F34 = 't';
+            char F35 = 'y';
+            char f29,f30,f31,f32,f33,f34,f35;
+            Begin = clock();
+            printf("\nquality\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua36;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&f29,&f30,&f31,&f32,&f33,&f34,&f35);
+            ++Tries;
+            if(tolower(f29)==F29&&tolower(f30)==F30&&tolower(f31)==F31&&tolower(f32)==F32&&tolower(f33)==F33&&tolower(f34)==F34&&tolower(f35)==F35)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 37:
+        {
+            //Active
+            int Qua37 = 6;
+            char F36 = 'a';
+            char F37 = 'c';
+            char G1 = 't';
+            char G2 = 'i';
+            char G3 = 'v';
+            char G4 = 'e';
+            char f36,f37,g1,g2,g3,g4;
+            Begin = clock();
+            printf("\nactive\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua37;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&f36,&f37,&g1,&g2,&g3,&g4);
+            ++Tries;
+            if(tolower(f36)==F36&&tolower(f37)==F37&&tolower(g1)==G1&&tolower(g2)==G2&&tolower(g3)==G3&&tolower(g4)==G4)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 38:
+        {
+            //Devote
+            int Qua38 = 6;
+            char G5 = 'd';
+            char G6 = 'e';
+            char G7 = 'v';
+            char G8 = 'o';
+            char G9 = 't';
+            char G10 = 'e';
+            char g5,g6,g7,g8,g9,g10;
+            Begin = clock();
+            printf("\ndevote\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua38;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&g5,&g6,&g7,&g8,&g9,&g10);
+            ++Tries;
+            if(tolower(g5)==G5&&tolower(g6)==G6&&tolower(g7)==G7&&tolower(g8)==G8&&tolower(g9)==G9&&tolower(g10)==G10)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 39:
+        {
+            //Vote
+            int Qua39 = 4;
+            char G11 = 'v';
+            char G12 = 'o';
+            char G13 = 't';
+            char G14 = 'e';
+            char g11,g12,g13,g14;
+            Begin = clock();
+            printf("\nvote\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua39;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c",&g11,&g12,&g13,&g14);
+            ++Tries;
+            if(tolower(g11)==G11&&tolower(g12)==G12&&tolower(g13)==G13&&tolower(g14)==G14)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 40:
+        {
+            //Attack
+            int Qua40 = 6;
+            char G15 = 'a';
+            char G16 = 't';
+            char G17 = 't';
+            char G18 = 'a';
+            char G19 = 'c';
+            char G20 = 'k';
+            char g15,g16,g17,g18,g19,g20;
+            Begin = clock();
+            printf("\nattack\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua40;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&g15,&g16,&g17,&g18,&g19,&g20);
+            ++Tries;
+            if(tolower(g15)==G15&&tolower(g16)==G16&&tolower(g17)==G17&&tolower(g18)==G18&&tolower(g19)==G19&&tolower(g20)==G20)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 41:
+        {
+            //Equal
+            int Qua41 = 5;
+            char G21 = 'e';
+            char G22 = 'q';
+            char G23 = 'u';
+            char G24 = 'a';
+            char G25 = 'l';
+            char g21,g22,g23,g24,g25;
+            Begin = clock();
+            printf("\nequal\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua41;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c",&g21,&g22,&g23,&g24,&g25);
+            ++Tries;
+            if(tolower(g21)==G21&&tolower(g22)==G22&&tolower(g23)==G23&&tolower(g24)==G24&&tolower(g25)==G25)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 42:
+        {
+            //Escape
+            int Qua42 = 6;
+            char G26 = 'e';
+            char G27 = 's';
+            char G28 = 'c';
+            char G29 = 'a';
+            char G30 = 'p';
+            char G31 = 'e';
+            char g26,g27,g28,g29,g30,g31;
+            Begin = clock();
+            printf("\nescape\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua42;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&g26,&g27,&g28,&g29,&g30,&g31);
+            ++Tries;
+            if(tolower(g26)==G26&&tolower(g27)==G27&&tolower(g28)==G28&&tolower(g29)==G29&&tolower(g30)==G30&&tolower(g31)==G31)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 43:
+        {
+            //Educate
+            int Qua43 = 7;
+            char G32 = 'e';
+            char G33 = 'd';
+            char G34 = 'u';
+            char G35 = 'c';
+            char G36 = 'a';
+            char G37 = 't';
+            char H1 = 'e';
+            char g32,g33,g34,g35,g36,g37,h1;
+            Begin = clock();
+            printf("\neducate\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua43;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&g32,&g33,&g34,&g35,&g36,&g37,&h1);
+            ++Tries;
+            if(tolower(g32)==G32&&tolower(g33)==G33&&tolower(g34)==G34&&tolower(g35)==G35&&tolower(g36)==G36&&tolower(g37)==G37&&tolower(h1)==H1)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 44:
+        {
+            //Beg
+            int Qua44 = 3;
+            char H2 = 'b';
+            char H3 = 'e';
+            char H4 = 'g';
+            char h2,h3,h4;
+            Begin = clock();
+            printf("\nbeg\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua44;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c",&h2,&h3,&h4);
+            ++Tries;
+            if(tolower(h2)==H2&&tolower(h3)==H3&&tolower(h4)==H4)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 45:
+        {
+            //Reward
+            int Qua45 = 6;
+            char H5 = 'r';
+            char H6 = 'e';
+            char H7 = 'w';
+            char H8 = 'a';
+            char H9 = 'r';
+            char H10 = 'd';
+            char h5,h6,h7,h8,h9,h10;
+            Begin = clock();
+            printf("\nreward\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua45;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c",&h5,&h6,&h7,&h8,&h9,&h10);
+            ++Tries;
+            if(tolower(h5)==H5&&tolower(h6)==H6&&tolower(h7)==H7&&tolower(h8)==H8&&tolower(h9)==H9&&tolower(h10)==H10)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        case 46:
+        {
+            //Opinion
+            int Qua46 = 7;
+            char H11 = 'o';
+            char H12 = 'p';
+            char H13 = 'i';
+            char H14 = 'n';
+            char H15 = 'i';
+            char H16 = 'o';
+            char H17 = 'n';
+            char h11,h12,h13,h14,h15,h16,h17;
+            Begin = clock();
+            printf("\nopinion\a");
+            for( ;clock() - Begin < Dispaly*CLOCKS_PER_SEC; );
+            {
+                printf("\r");
+            }
+            for(int x = 1;x <= Qua46;++x)
+            {
+                printf(" ");
+            }
+            if(Tries==1)
+            {
+                printf("Now input the word.");
+            }
+            else
+            {
+                printf("\r");
+            }
+            scanf("%c %c %c %c %c %c %c",&h11,&h12,&h13,&h14,&h15,&h16,&h17);
+            ++Tries;
+            if(tolower(h11)==H11&&tolower(h12)==H12&&tolower(h13)==H13&&tolower(h14)==H14&&tolower(h15)==H15&&tolower(h16)==H16&&tolower(h17)==H17)
+            {
+                printf("Corecct!Well done.\n\a");
+                ++Mark;
+                goto Core;
+            }
+            else
+            {
+                printf("Wrong!It\'s a shame.");
+                printf("Your final mark is %d",Mark*10);
+            }
+            break;
+        }
+
+        default:
+        {
+            BUG =0;
+            printf("Sorry,a bug causes this software break down,please turn to ComX Software.\a\a\a\n");
+            printf("Your mark is %d.\n",Mark*10);
+            goto Core;
+        }
+    }
+
+    //End
+    return 0;
+}
